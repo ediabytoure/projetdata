@@ -1,0 +1,2 @@
+CREATE TABLE PETITION (id_petition INT PRIMARY KEY, titre VARCHAR(500), date_creation DATE, date_cloture DATE, nb_signatures INT, id_statut INT, id_commission INT);
+CREATE TABLE DESCRIPTION_PETITION (id_description INT PRIMARY KEY, id_petition INT, sujet TEXT, arguments TEXT, objectifs TEXT);
